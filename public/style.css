@@ -247,3 +247,37 @@ i:hover {
   transform: scale(1.1);
   filter: drop-shadow(0 0 6px rgba(0, 198, 255, 0.8));
 }
+.gym-img {
+  display: block;
+  margin: 30px auto 0;
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.gym-img:hover {
+  transform: scale(1.05);
+}
+.welcome-heading {
+  font-size: 2.4rem;
+  color: #cb7225; /* Verde-menta brillante, elegante y moderno */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+  animation: fadeInDown 0.8s ease-in-out;
+}
+
+/* Animación suave */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
